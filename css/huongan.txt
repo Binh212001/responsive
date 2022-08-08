@@ -1,0 +1,35 @@
+[bLOCK]
+ -chiem toan bo chieu ngang man hinh
+ -set duoc chieu rong va chieu cao cho the
+
+    h1->h6 {thẻ tiêu đề}
+    div {}
+    ul
+    li
+    nav
+
+nav
+ ul
+  li
+   a
+
+
+[NON-BLOCK/INLINE]
+  -chieu rong bang noi dung trong
+ -khong duoc chieu rong va chieu cao cho the
+   
+ p
+  img
+  video
+  span
+  a(link)
+  button (nut)
+
+
+[The dac biet]
+
+img
+video
+
+
+[noi dung hoc css]

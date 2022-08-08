@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: aqua;
+  position: relative;
+}
+img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+ul {
+  display: flex;
+
+  background-color: blue;
+  list-style: none;
+}
+li {
+  margin-right: 50px;
+}
+.link {
+  text-decoration: none;
+}
+.link:hover {
+  color: red;
+}
+.menu > span {
+  /* chu menu */
+  display: none;
+}
+/* man moblie */
+@media only screen and (max-width: 500px) {
+  .list {
+    /* an list */
+    display: none;
+    width: 100vw;
+  }
+  .menu > span {
+    /* hien menu */
+    display: block;
+  }
+  .menu:hover .list {
+    /* hieen list  */
+    display: block;
+    /* position: vitri */
+    /* tim cha cos thuoc tinh position lamf moc */
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .list {
+    /* an list */
+    display: none;
+    width: 100vw;
+  }
+  .menu > span {
+    /* hien menu */
+    display: block;
+  }
+  .menu:hover .list {
+    /* hieen list  */
+    display: block;
+    /* position: vitri */
+    /* tim cha cos thuoc tinh position lamf moc */
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
